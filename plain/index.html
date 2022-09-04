@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>db_querry_tool</title>
+    <link rel="icon" type="image/x-icon" href="/images/adp_fevicon.webp" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="header">
+        <div id="left_admin_nav">
+          <img src="/images/adp_logo.png" />
+        </div>
+        <div id="right_admin_nav">
+          <div id="log_out_div">
+            <div>
+              <img id="log_out_img" src="/images/logout.png" alt="" />
+            </div>
+
+            <p class="alpha">LOG OUT</p>
+          </div>
+          <div id="prof_pic">
+            <img src="/images/blank-profile-picture.png" alt="" />
+          </div>
+          <div id="u_name_box">
+            <p class="alpha u_name">HELLO -USER-</p>
+          </div>
+        </div>
+      </div>
+      <div id="subheader">
+        <div class="sub_head_ch">
+          <ul>
+            <li>CLIENT</li>
+            <li>ADP</li>
+            <li>★</li>
+          </ul>
+        </div>
+        <div class="sub_head_ch sub_head_ch_cl">
+          <input placeholder="Search Workforce Now:" type="text" />
+        </div>
+      </div>
+      <h1 id="heading">DB Query Tool</h1>
+
+      <div id="toggle_bar">
+        <div class="sub_tog_div active">
+          <p>Client DB</p>
+        </div>
+        <div class="sub_tog_div">
+          <p>System DB</p>
+        </div>
+      </div>
+
+      <div id="inp_feilds">
+        <p class="top_lable">client_key</p>
+        <input id="client_key" />
+
+        <p class="top_lable">User Locale</p>
+        <select id="user_loc_sel">
+          <option>en_US- English (United State)</option>
+        </select>
+
+        <div class="switch_flex">
+          <label class="toggle_btn">
+            <input type="checkbox" id="check1" />
+            <span class="slider"></span>
+          </label>
+          <p class="top_lable">spv_excl_arch_ee</p>
+        </div>
+        <div class="switch_flex">
+          <label class="toggle_btn">
+            <input type="checkbox" id="check2" />
+            <span class="slider"></span>
+          </label>
+          <p class="top_lable">spv_excl_purged_ee</p>
+        </div>
+        <p class="top_lable">Querry</p>
+        <textarea name="" id="query_inp" cols="40" rows="10"></textarea>
+
+        <button id="submit_btn">EXECUTE</button>
+      </div>
+
+      <div id="result_div"></div>
+    </div>
+  </body>
+</html>
+
+<script src="/index.js"></script>
