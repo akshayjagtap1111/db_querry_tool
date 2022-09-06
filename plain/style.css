@@ -158,6 +158,7 @@ li {
   word-wrap: break-word;
   font-size: 120%;
   font-weight: 400;
+  cursor: pointer;
 }
 
 #toggle_bar div p {
@@ -259,6 +260,7 @@ input:checked + .slider:before {
   outline: none;
   border: solid gainsboro;
   margin-top: 20px;
+  cursor: pointer;
 }
 
 #query_lable {
@@ -289,4 +291,5 @@ input:checked + .slider:before {
   width: 95%;
   min-height: 50px;
   margin: auto;
+  word-wrap: break-word;
 }
