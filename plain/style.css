@@ -124,6 +124,7 @@ ul {
 }
 li {
   cursor: pointer;
+  margin-left: 5px;
 }
 
 .sub_head_ch_cl {
