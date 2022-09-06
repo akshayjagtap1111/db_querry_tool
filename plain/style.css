@@ -130,6 +130,7 @@ li {
 .sub_head_ch_cl {
   width: 20%;
   background-color: white;
+  min-width: 140px;
 }
 
 .sub_head_ch_cl input {
@@ -185,6 +186,7 @@ li {
   padding: 0 0 5px 0;
   border: solid gainsboro;
   font-size: 100%;
+  min-width: 250px;
 }
 
 #inp_feilds textarea {
